@@ -4,6 +4,8 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: sayu-hub
       url-base: https://github.com/sayu-hub
+    - name: tatsuki26
+      url-base: https://github.com/tatsuki26
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -19,8 +21,10 @@ manifest:
       # is migrated to the native driver).
       revision: f9be3ed9c08b35b1b86df24c0f04913f3b5e50f5
       import: app/west.yml
+    # --- DEBUG: トラックボール無反応の調査用に一時的にforkを参照。原因判明後に元に戻すこと。
     - name: zmk-pmw3610-driver
-      remote: sayu-hub
+      remote: tatsuki26
       revision: main
+    # --- DEBUG ここまで（元は remote: sayu-hub, revision: main） ---
   self:
     path: config
