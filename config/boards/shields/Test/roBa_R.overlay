@@ -20,7 +20,26 @@
         device = <&trackball>;
 
     };
+
+    /* --- DEBUG: トラックボール無反応の調査用（原因判明後に削除すること） ---
+     * xiao_serial (物理UART) をSPIのために無効化しているため、
+     * CONFIG_ZMK_USB_LOGGING 用のコンソールをCDC-ACM UARTとして別途用意する。
+     */
+    chosen {
+        zephyr,console = &cdc_acm_uart0;
+        zephyr,shell-uart = &cdc_acm_uart0;
+    };
+    /* --- DEBUG ここまで --- */
 };
+
+/* --- DEBUG --- */
+&zephyr_udc0 {
+    cdc_acm_uart0: cdc_acm_uart0 {
+        compatible = "zephyr,cdc-acm-uart";
+        label = "CDC_ACM_0";
+    };
+};
+/* --- DEBUG ここまで --- */
 
 &pinctrl {
     spi0_default: spi0_default {
