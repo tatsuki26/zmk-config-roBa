@@ -2,6 +2,7 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/pointing.h>
+#include <dt-bindings/zmk/modifiers.h>
 
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 100
 #define MOUSE 4
@@ -89,6 +90,15 @@
 
             max-taps = <2>;
             max-tap-interrupt-ms = <250>;
+        };
+
+        // Command(GUI)を押しながらのときだけTabを送る。通常時はA。
+        // ZMK Studioでキーに割り当てて使用する。
+        a_or_tab: a_or_tab {
+            compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
+            bindings = <&kp A>, <&kp TAB>;
+            mods = <(MOD_LGUI|MOD_RGUI)>;
         };
     };
 
