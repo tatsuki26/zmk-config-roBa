@@ -131,10 +131,10 @@
 
         SYMBOLS {
             bindings = <
-&kp ESCAPE  &kp AMPERSAND    &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS                      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACE  &kp RIGHT_BRACE    &trans
-&kp LCTRL   &kp DOLLAR       &kp PERCENT   &kp CARET             &kp TILDE              &trans      &trans  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp SEMICOLON   &kp SINGLE_QUOTE   &kp RIGHT_ARROW
-&kp GRAVE   &kp EXCLAMATION  &kp C         &kp HASH              &kp AT_SIGN            &trans      &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp COLON       &kp DOUBLE_QUOTES  &kp BACKSLASH
-&trans      &trans           &trans        &trans                &trans                 &trans      &trans  &trans                                                                          &kp PIPE
+&kp ESCAPE  &kp AMPERSAND    &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS                                  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACE  &kp RIGHT_BRACE    &trans
+&kp LCTRL   &kp DOLLAR       &kp PERCENT   &kp CARET             &kp TILDE              &trans      &trans              &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp SEMICOLON   &kp SINGLE_QUOTE   &kp RIGHT_ARROW
+&kp GRAVE   &kp EXCLAMATION  &kp C         &kp HASH              &kp AT_SIGN            &trans      &trans              &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp COLON       &kp DOUBLE_QUOTES  &kp BACKSLASH
+&trans      &trans           &trans        &trans                &trans                 &trans      &kp LC(LEFT_ARROW)  &kp LC(RIGHT_ARROW)                                                             &kp PIPE
             >;
         };
 
