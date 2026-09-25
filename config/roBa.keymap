@@ -99,6 +99,14 @@
             bindings = <&kp A>, <&kp TAB>;
             mods = <(MOD_LGUI|MOD_RGUI)>;
         };
+
+        // 左Shiftを押しながらのときだけスラッシュ(・)を送る。通常時はlt 2 RIGHT_SHIFT。
+        rshift_or_slash: rshift_or_slash {
+            compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
+            bindings = <&lt 2 RIGHT_SHIFT>, <&kp SLASH>;
+            mods = <(MOD_LSFT)>;
+        };
     };
 
     keymap {
@@ -108,7 +116,7 @@
             bindings = <
 &kp Q           &kp W             &kp E         &kp R           &kp T                                                   &kp Y            &kp U  &kp I      &kp O    &kp P
 &a_or_tab       &kp S             &kp D         &kp F           &kp G              &kp ESCAPE      &kp EQUAL            &kp H            &kp J  &kp K      &kp L    &kp MINUS
-&kp Z           &kp X             &kp C         &kp V           &kp B              &kp TAB         &lt 3 RIGHT_BRACKET  &kp N            &kp M  &kp COMMA  &kp DOT  &lt 2 RIGHT_SHIFT
+&kp Z           &kp X             &kp C         &kp V           &kp B              &kp TAB         &lt 3 RIGHT_BRACKET  &kp N            &kp M  &kp COMMA  &kp DOT  &rshift_or_slash
 &kp LEFT_SHIFT  &kp LEFT_COMMAND  &kp LEFT_ALT  &lt 1 LEFT_ALT  &kp RIGHT_COMMAND  &kp SPACE       &kp ENTER            &lt 3 BACKSPACE                             &kp SLASH
             >;
 
