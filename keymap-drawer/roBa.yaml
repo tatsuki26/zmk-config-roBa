@@ -52,8 +52,8 @@ layers:
   - )
   - (
   - )
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '{'
+  - '}'
   - {t: ▽, type: trans}
   - LCTRL
   - $
@@ -66,19 +66,19 @@ layers:
   - '}'
   - ;
   - ''''
-  - \
+  - RIGHT ARROW
   - '`'
   - '!'
-  - '@'
+  - C
   - '#'
-  - {t: ▽, type: trans}
+  - '@'
   - {t: ▽, type: trans}
   - {t: BT, h: '0'}
   - '['
   - ']'
   - ':'
   - '"'
-  - '|'
+  - \
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -87,7 +87,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '|'
   NUM:
   - TAB
   - KP 7
@@ -215,7 +215,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&to_layer_0 LANG_HANJA'
-  - {t: ▽, type: trans}
+  - LEFT COMMAND
   - '&to_layer_0 LANG_HANGEUL'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
