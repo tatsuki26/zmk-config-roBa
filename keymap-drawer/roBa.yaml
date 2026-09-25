@@ -38,7 +38,7 @@ layers:
   - LEFT SHIFT
   - LEFT COMMAND
   - LEFT ALT
-  - {t: LEFT ALT, h: SYMBOLS}
+  - SYMBOLS
   - LEFT COMMAND
   - SPACE
   - ENTER
