@@ -100,11 +100,11 @@
             mods = <(MOD_LGUI|MOD_RGUI)>;
         };
 
-        // 左Shiftを押しながらのときだけスラッシュ(・)を送る。通常時はlt 2 RIGHT_SHIFT。
+        // 左Shiftを押しながらのときだけ?を送る。通常時はlt 2 RIGHT_SHIFT。
         rshift_or_slash: rshift_or_slash {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
-            bindings = <&lt 2 RIGHT_SHIFT>, <&kp SLASH>;
+            bindings = <&lt 2 RIGHT_SHIFT>, <&kp QUESTION>;
             mods = <(MOD_LSFT)>;
         };
     };
