@@ -11,7 +11,7 @@ layers:
   - I
   - O
   - P
-  - {t: A, s: TAB}
+  - A
   - S
   - D
   - F
