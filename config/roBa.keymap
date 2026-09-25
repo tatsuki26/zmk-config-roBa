@@ -23,6 +23,9 @@
         BT0 {
             bindings = <&bt BT_SEL 0>;
             key-positions = <28>;
+            // layersを明示(全レイヤー=省略時と同じ)。keymap-drawerが単一キーコンボを
+            // 描画する際にlayers未指定だと落ちるためのワークアラウンド。
+            layers = <0 1 2 3 4 5 6>;
         };
 
         BT1 {
