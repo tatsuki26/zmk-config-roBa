@@ -85,8 +85,8 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Ctl+LEFT ARROW
+  - Ctl+RIGHT ARROW
   - '|'
   NUM:
   - TAB
