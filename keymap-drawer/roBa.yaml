@@ -36,7 +36,7 @@ layers:
   - .
   - {t: RIGHT SHIFT, h: NUM, s: '?'}
   - LEFT SHIFT
-  - LEFT COMMAND
+  - ARROW
   - LEFT ALT
   - SYMBOLS
   - LEFT COMMAND
@@ -167,7 +167,7 @@ layers:
   - {t: ▽, type: trans}
   - Ctl+Gui+RIGHT ARROW
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LEFT SHIFT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
