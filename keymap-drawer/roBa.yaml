@@ -16,7 +16,7 @@ layers:
   - D
   - F
   - G
-  - ESCAPE
+  - {t: ESC, h: ARROW}
   - '='
   - H
   - J
@@ -29,7 +29,7 @@ layers:
   - V
   - B
   - TAB
-  - {t: BT, h: '0', type: held}
+  - {t: BT, h: '0'}
   - N
   - M
   - ','
@@ -73,7 +73,7 @@ layers:
   - '#'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: BT, h: '0', type: held}
+  - {t: BT, h: '0'}
   - '['
   - ']'
   - ':'
@@ -117,7 +117,7 @@ layers:
   - '3'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: BT, h: '0', type: held}
+  - {t: BT, h: '0'}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -148,7 +148,7 @@ layers:
   - DOWN ARROW
   - RIGHT ARROW
   - END
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - HOME
   - LEFT ARROW
@@ -161,7 +161,7 @@ layers:
   - Gui+Ctl+RIGHT ARROW
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: BT, h: '0', type: held}
+  - {t: BT, h: '0'}
   - {t: ▽, type: trans}
   - Ctl+Gui+LEFT ARROW
   - {t: ▽, type: trans}
@@ -205,7 +205,7 @@ layers:
   - '&to_layer_0 V'
   - '&to_layer_0 B'
   - {t: ▽, type: trans}
-  - {t: BT, h: '0', type: held}
+  - {t: BT, h: '0'}
   - '&to_layer_0 N'
   - '&mkp MB4'
   - '&mkp MB5'
@@ -249,7 +249,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: BT, h: '0', type: held}
+  - {t: BT, h: '0'}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
