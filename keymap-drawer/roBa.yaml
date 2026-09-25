@@ -140,7 +140,7 @@ layers:
   - Gui+RIGHT ARROW
   - Gui+LEFT ARROW
   - Sft+Ctl+TAB
-  - U
+  - UP ARROW
   - Ctl+TAB
   - Gui+RIGHT ARROW
   - HOME
@@ -148,8 +148,8 @@ layers:
   - DOWN ARROW
   - RIGHT ARROW
   - END
-  - {type: held}
-  - {t: ▽, type: trans}
+  - {t: Alt+LEFT ARROW, type: held}
+  - Alt+RIGHT ARROW
   - HOME
   - LEFT ARROW
   - DOWN ARROW
@@ -157,10 +157,10 @@ layers:
   - RIGHT ARROW
   - LEFT SHIFT
   - Gui+Ctl+LEFT ARROW
-  - {t: ▽, type: trans}
+  - Gui+Sft+3
   - Gui+Ctl+RIGHT ARROW
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Gui+Sft+4
+  - Gui+Sft+5
   - {t: BT, h: '0'}
   - {t: ▽, type: trans}
   - Ctl+Gui+LEFT ARROW
