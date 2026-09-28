@@ -218,7 +218,7 @@ layers:
   - LEFT COMMAND
   - '&to_layer_0 LANG_HANGEUL'
   - Ctl+LEFT
-  - RIGHT
+  - Ctl+RIGHT
   - SCROLL
   SCROLL:
   - {t: ▽, type: trans}
