@@ -155,7 +155,7 @@ layers:
   - DOWN ARROW
   - UP ARROW
   - RIGHT ARROW
-  - LEFT SHIFT
+  - LCTRL
   - Gui+Ctl+LEFT ARROW
   - {t: ▽, type: trans}
   - Gui+Ctl+RIGHT ARROW
@@ -163,15 +163,15 @@ layers:
   - {t: ▽, type: trans}
   - {t: BT, h: '0'}
   - {t: ▽, type: trans}
-  - Ctl+Gui+LEFT ARROW
+  - Gui+LEFT ARROW
   - {t: ▽, type: trans}
-  - Ctl+Gui+RIGHT ARROW
+  - Gui+RIGHT ARROW
   - {t: ▽, type: trans}
   - LEFT SHIFT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LEFT COMMAND
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -194,7 +194,7 @@ layers:
   - '&to_layer_0 G'
   - {t: ▽, type: trans}
   - Ctl+V
-  - Ctl+Sft+TAB
+  - Ctl+UP ARROW
   - '&mkp_exit_AML MB1'
   - '&mkp_exit_AML MB2'
   - '&mkp_exit_AML MB3'
