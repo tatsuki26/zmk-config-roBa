@@ -217,8 +217,8 @@ layers:
   - '&to_layer_0 LANG_HANJA'
   - LEFT COMMAND
   - '&to_layer_0 LANG_HANGEUL'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Ctl+LEFT
+  - RIGHT
   - SCROLL
   SCROLL:
   - {t: ▽, type: trans}
