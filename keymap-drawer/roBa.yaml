@@ -41,7 +41,7 @@ layers:
   - SYMBOLS
   - LEFT COMMAND
   - SPACE
-  - ENTER
+  - {t: ENTER, h: ARROW}
   - {t: BACKSPACE, h: RIGHT COMMAND}
   - /
   SYMBOLS:
