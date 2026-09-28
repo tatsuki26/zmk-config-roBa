@@ -184,7 +184,7 @@ layers:
   - '&to_layer_0 T'
   - '&to_layer_0 Y'
   - '&to_layer_0 U'
-  - Ctl+T
+  - Gui+R
   - '&to_layer_0 O'
   - {t: ▽, type: trans}
   - '&to_layer_0 A'
