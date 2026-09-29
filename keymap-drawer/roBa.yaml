@@ -183,9 +183,9 @@ layers:
   - '&to_layer_0 R'
   - '&to_layer_0 T'
   - '&to_layer_0 Y'
-  - '&to_layer_0 U'
   - Gui+R
-  - '&to_layer_0 O'
+  - Ctl+LEFT ARROW
+  - Ctl+RIGHT
   - {t: ▽, type: trans}
   - '&to_layer_0 A'
   - '&to_layer_0 S'
@@ -217,8 +217,8 @@ layers:
   - '&to_layer_0 LANG_HANJA'
   - LEFT COMMAND
   - '&to_layer_0 LANG_HANGEUL'
-  - Ctl+LEFT
-  - Ctl+RIGHT
+  - '&to_layer_0 ENTER'
+  - '&to_layer_0 BACKSPACE'
   - SCROLL
   SCROLL:
   - {t: ▽, type: trans}
