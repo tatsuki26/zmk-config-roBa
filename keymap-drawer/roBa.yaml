@@ -89,7 +89,7 @@ layers:
   - Ctl+RIGHT ARROW
   - '|'
   NUM:
-  - TAB
+  - '!'
   - KP 7
   - KP 8
   - KP 9
