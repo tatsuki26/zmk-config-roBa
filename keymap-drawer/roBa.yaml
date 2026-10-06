@@ -128,7 +128,7 @@ layers:
   - {t: ▽, type: trans}
   - LEFT COMMAND
   - LEFT COMMAND
-  - {t: ▽, type: trans}
+  - Sft+Gui+4
   - {t: ▽, type: trans}
   - KP 0
   - F13
