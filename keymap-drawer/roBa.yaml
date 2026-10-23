@@ -90,10 +90,10 @@ layers:
   - '|'
   NUM:
   - '!'
-  - KP 7
-  - KP 8
-  - KP 9
-  - +
+  - '@'
+  - '#'
+  - '%'
+  - Ctl+&
   - +
   - KP 7
   - KP 8
@@ -147,7 +147,7 @@ layers:
   - LEFT ARROW
   - DOWN ARROW
   - RIGHT ARROW
-  - END
+  - Alt+LEFT COMMAND
   - {type: held}
   - {t: ▽, type: trans}
   - HOME
@@ -168,7 +168,7 @@ layers:
   - Gui+RIGHT ARROW
   - {t: ▽, type: trans}
   - LEFT SHIFT
-  - {t: ▽, type: trans}
+  - LEFT ALT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LEFT COMMAND
